@@ -1,0 +1,109 @@
+#memberships{
+    padding-top: 300px;
+    margin-bottom: 50px;
+    h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.table{
+    border-collapse: collapse;
+    margin: 10px 10px;
+}
+.empty{
+    background-color: gray;
+}
+td,th{
+    background-color: white;
+}
+td{
+    padding: 15px 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.membership-company-features{
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 50px;
+}
+
+.membership-developer-features{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 50px;
+}
+
+.th-table-image-free, .table-dark{
+    border: 1px solid black;
+}
+
+.th-table-image-premium{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.an_star{
+    width: 20px;
+}
+
+@media (max-width: 840px){
+    #memberships{
+        padding-top: 200px;
+        h1{
+            font-size: 40px;
+        }
+    }
+    .membership-company-features,
+    .membership-developer-features{
+        padding: 0;
+    }
+    .an_image{
+        width: 50px;
+     }
+    .an_star{
+        width: 20px;
+    }
+    .table{
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width:570px) {
+    #memberships{
+        p{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 380px){
+    #memberships{
+        padding-top: 180px;
+        h1{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    
+     .an_image{
+        width: 30px;
+     }
+    .an_star{
+        width: 10px;
+    }
+
+}
